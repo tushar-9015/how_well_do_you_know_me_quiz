@@ -8,7 +8,7 @@ colors.setTheme({
 });
 
 
-var userName = readlineSync.question("What's your Name? ");
+var userName = readlineSync.question(colors.bold("What's your Name? "));
 console.log(`Welcome ${userName}`.green);
 console.log('Get ready to play "How Well Do You Know Tushar Quiz"'.info);
 
